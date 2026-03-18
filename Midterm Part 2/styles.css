@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4efe7;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+
+.site-header {
+    background: linear-gradient(135deg, #274c3d, #3f6a56);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+
+.site-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.site-header h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: #dcefe6;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+main section {
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #274c3d;
+    text-align: center;
+}
+
+.menu-image-section {
+    text-align: center;
+}
+
+.menu-image {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+    border: 1px solid #cfc6b8;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #274c3d;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f3ec;
+}
+
+tbody tr:hover {
+    background-color: #ece4d8;
+}
+
+.flavor-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.flavor-section p {
+    font-size: 1rem;
+}
+
+.site-footer {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+    font-size: 0.95rem;
+}
+
+.site-footer p:first-child {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .site-header h2 {
+        font-size: 1.1rem;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 0.92rem;
+    }
+}
